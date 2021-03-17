@@ -59,6 +59,9 @@ const useStyles = makeStyles({
   hamburger: {
     background: "#212121",
     color: "#fafafa",
+    "&:hover": {
+      background: "#424242",
+    },
   },
   hamburgerIcon: {
     "@media (min-width: 720px)": {
@@ -77,6 +80,9 @@ const useStyles = makeStyles({
     height: 60,
     borderRadius: 30,
     letterSpacing: 3,
+    "&:hover": {
+      background: "#424242",
+    },
   },
   bodyTextContainer: {
     maxWidth: 340,
